@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+body.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-theme .card {
+  background: #111;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 20px 0;
+  background: #f9f9f9;
+  transition: background 0.3s, color 0.3s;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-left: 5px;
+}
+
+.dark-mode {
+  background: #222;
+  color: #eee;
+}
+
+.faq-answer {
+  display: none;
+  margin: 10px 0;
+}
